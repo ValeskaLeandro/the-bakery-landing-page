@@ -1,0 +1,24 @@
+.main_banner {
+  height: 80vh; 
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../public/main-image.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.main_banner h1 {
+  width: 70%;
+  color: #f5f5f5;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .main_banner h1{
+    font-size : 3.5rem
+  }
+}
+
