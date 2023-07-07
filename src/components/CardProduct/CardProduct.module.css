@@ -1,0 +1,36 @@
+.card_product {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 3px 10px 20px -7px rgba(0,0,0,0.3);
+  transition: .4s;
+}
+
+.card_product:hover {
+  transform: scale(1.1);
+}
+
+.card_product img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.info_product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info_product h3 {
+  color: var(--main-orange);
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.info_product span {
+  color: var(--main-brown);
+  font-size: .825rem;
+}

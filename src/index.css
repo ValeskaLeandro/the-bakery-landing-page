@@ -1,9 +1,17 @@
-body{
+:root {
+  --main-brown: #624836;
+  --main-orange: #c6713a
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{  
   font-family: 'Plus Jakarta Sans', sans-serif;
   background-color: #f7f8fb;
+  
 }
 
 .active {

@@ -1,5 +1,5 @@
 .header {
-  width: 100vw;
+  width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-around;
@@ -59,7 +59,7 @@
 }
 
 .menu ul a:hover {
-  color: #c6713a;
+  color: var(--main-orange);
 } 
 @media (min-width: 768px) {
   .menu_toggle {
