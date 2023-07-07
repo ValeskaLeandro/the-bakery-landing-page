@@ -1,43 +1,40 @@
 .container {
   width: 100%;
+  background-color: var(--main-orange);
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  padding: 30px 0;
 }
-.container h2 {
+
+.container h3 {
+  color: #f2f2f2;
   text-transform: uppercase;
-  color: var(--main-orange);
   font-size: 1.25rem;
 }
+
 .container p {
   color: var(--main-brown);
   margin-bottom: 20px;
-  font-size: .825rem
 }
 
-.products {
+.team {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
   width: 80%;
 }
 
-@media (min-width: 650px) {
-  .products{
+@media (min-width: 600px) {
+  .team {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 900px) {
-  .products{
+@media (min-width: 1000px) {
+  .team{
     grid-template-columns: repeat(3, 1fr);
+    width: 70%
   }
 }
 
-@media (min-width: 1250px) {
-  .products{
-    grid-template-columns: repeat(4, 1fr);
-    width: 70%;
-  }
-}

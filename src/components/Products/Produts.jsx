@@ -5,6 +5,7 @@ export default function Products(){
   return(
     <div className={styles.container} id="products">
     <h2>Produtos populares</h2>
+    <p>Os queridinhos dos clientes!</p>
     <div className={styles.products}>
       <CardProduct img="/products/product1.jpg" name="Bolo de limão" price="R$ 59.90" />
       <CardProduct img="/products/product2.jpg" name="Donut simples" price="R$ 6.90" />
