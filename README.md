@@ -7,7 +7,7 @@ A página conta com apresentação dos serviços, dos principais produdtos e do 
 
 ## Tecnologias Utilizadas
 - 🚀 **React**: Utilizado para criar uma interface de usuário..
-- 💄 **CSS Module**: Framework de estilização utilizado para um desenvolvimento rápido e responsivo.
+- 💄 **CSS Module**:  Os estilos de um componente são encapsulados em um escopo local, evitando que as classes ou seletores definidos dentro dele entrem em conflito com outros componentes.
 
 #
 ## Dê o start 🚀
