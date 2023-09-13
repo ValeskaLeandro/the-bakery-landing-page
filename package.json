@@ -1,6 +1,6 @@
 {
-  "name": "the-bakery",
   "homepage": "https://valeskaleandro.github.io/the-bakery-landing-page",
+  "name": "the-bakery",
   "private": true,
   "version": "0.0.0",
   "type": "module",
