@@ -14,7 +14,7 @@ export default function Contact() {
             <button>Enviar</button>
           </form>
         </div>      
-        <img src="/production.jpg" alt="The Bakery" />        
+        <img src="./production.jpg" alt="The Bakery" />        
       </div>
     </div>
   )
